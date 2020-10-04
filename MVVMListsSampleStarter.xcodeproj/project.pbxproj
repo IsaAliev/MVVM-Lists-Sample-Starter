@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,15 @@
 		436E1276252A2CCA00F7F6CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436E1275252A2CCA00F7F6CE /* Assets.xcassets */; };
 		436E1279252A2CCA00F7F6CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436E1277252A2CCA00F7F6CE /* LaunchScreen.storyboard */; };
 		436E1281252A2D2400F7F6CE /* AppLaunchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E1280252A2D2400F7F6CE /* AppLaunchCoordinator.swift */; };
+		436E128A252A2FA700F7F6CE /* CollectionItemsViewModelDependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E1289252A2FA200F7F6CE /* CollectionItemsViewModelDependencyManager.swift */; };
+		436E128B252A2FA700F7F6CE /* CollectionItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E1284252A2FA200F7F6CE /* CollectionItemViewModel.swift */; };
+		436E128C252A2FA700F7F6CE /* CollectionItemViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E1283252A2FA200F7F6CE /* CollectionItemViewRepresentable.swift */; };
+		436E128D252A2FA700F7F6CE /* ViewDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E1286252A2FA200F7F6CE /* ViewDependency.swift */; };
+		436E128E252A2FA700F7F6CE /* ViewDependencyInstallable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E1287252A2FA200F7F6CE /* ViewDependencyInstallable.swift */; };
+		436E128F252A2FA700F7F6CE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E1288252A2FA200F7F6CE /* ViewModel.swift */; };
+		436E1290252A2FA700F7F6CE /* ViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E1285252A2FA200F7F6CE /* ViewRepresentable.swift */; };
+		436E1292252A2FDB00F7F6CE /* ViewDependecy+Installation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E1291252A2FDB00F7F6CE /* ViewDependecy+Installation.swift */; };
+		436E1294252A2FE400F7F6CE /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E1293252A2FE400F7F6CE /* Utils.swift */; };
 		56CF9062C51E7E8FF8E23B3D /* Pods_MVVMListsSampleStarter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144893032FC3AD90184D1A9C /* Pods_MVVMListsSampleStarter.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +33,15 @@
 		436E1278252A2CCA00F7F6CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		436E127A252A2CCA00F7F6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436E1280252A2D2400F7F6CE /* AppLaunchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchCoordinator.swift; sourceTree = "<group>"; };
+		436E1283252A2FA200F7F6CE /* CollectionItemViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionItemViewRepresentable.swift; sourceTree = "<group>"; };
+		436E1284252A2FA200F7F6CE /* CollectionItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionItemViewModel.swift; sourceTree = "<group>"; };
+		436E1285252A2FA200F7F6CE /* ViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRepresentable.swift; sourceTree = "<group>"; };
+		436E1286252A2FA200F7F6CE /* ViewDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDependency.swift; sourceTree = "<group>"; };
+		436E1287252A2FA200F7F6CE /* ViewDependencyInstallable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDependencyInstallable.swift; sourceTree = "<group>"; };
+		436E1288252A2FA200F7F6CE /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		436E1289252A2FA200F7F6CE /* CollectionItemsViewModelDependencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionItemsViewModelDependencyManager.swift; sourceTree = "<group>"; };
+		436E1291252A2FDB00F7F6CE /* ViewDependecy+Installation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewDependecy+Installation.swift"; sourceTree = "<group>"; };
+		436E1293252A2FE400F7F6CE /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,7 @@
 		436E126B252A2CC700F7F6CE /* MVVMListsSampleStarter */ = {
 			isa = PBXGroup;
 			children = (
+				436E1282252A2F3F00F7F6CE /* MVVMKit */,
 				436E126C252A2CC700F7F6CE /* AppDelegate.swift */,
 				436E1275252A2CCA00F7F6CE /* Assets.xcassets */,
 				436E1277252A2CCA00F7F6CE /* LaunchScreen.storyboard */,
@@ -66,6 +85,22 @@
 				436E1280252A2D2400F7F6CE /* AppLaunchCoordinator.swift */,
 			);
 			path = MVVMListsSampleStarter;
+			sourceTree = "<group>";
+		};
+		436E1282252A2F3F00F7F6CE /* MVVMKit */ = {
+			isa = PBXGroup;
+			children = (
+				436E1293252A2FE400F7F6CE /* Utils.swift */,
+				436E1291252A2FDB00F7F6CE /* ViewDependecy+Installation.swift */,
+				436E1289252A2FA200F7F6CE /* CollectionItemsViewModelDependencyManager.swift */,
+				436E1284252A2FA200F7F6CE /* CollectionItemViewModel.swift */,
+				436E1283252A2FA200F7F6CE /* CollectionItemViewRepresentable.swift */,
+				436E1286252A2FA200F7F6CE /* ViewDependency.swift */,
+				436E1287252A2FA200F7F6CE /* ViewDependencyInstallable.swift */,
+				436E1288252A2FA200F7F6CE /* ViewModel.swift */,
+				436E1285252A2FA200F7F6CE /* ViewRepresentable.swift */,
+			);
+			path = MVVMKit;
 			sourceTree = "<group>";
 		};
 		4E6250279D77A5102C5CC02A /* Frameworks */ = {
@@ -82,7 +117,6 @@
 				36B1DF0BD83703D571D43134 /* Pods-MVVMListsSampleStarter.debug.xcconfig */,
 				362DAD64B1F457BB5E07D275 /* Pods-MVVMListsSampleStarter.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -201,7 +235,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				436E126D252A2CC700F7F6CE /* AppDelegate.swift in Sources */,
+				436E128A252A2FA700F7F6CE /* CollectionItemsViewModelDependencyManager.swift in Sources */,
 				436E1281252A2D2400F7F6CE /* AppLaunchCoordinator.swift in Sources */,
+				436E128D252A2FA700F7F6CE /* ViewDependency.swift in Sources */,
+				436E128E252A2FA700F7F6CE /* ViewDependencyInstallable.swift in Sources */,
+				436E1290252A2FA700F7F6CE /* ViewRepresentable.swift in Sources */,
+				436E1292252A2FDB00F7F6CE /* ViewDependecy+Installation.swift in Sources */,
+				436E1294252A2FE400F7F6CE /* Utils.swift in Sources */,
+				436E128C252A2FA700F7F6CE /* CollectionItemViewRepresentable.swift in Sources */,
+				436E128F252A2FA700F7F6CE /* ViewModel.swift in Sources */,
+				436E128B252A2FA700F7F6CE /* CollectionItemViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
