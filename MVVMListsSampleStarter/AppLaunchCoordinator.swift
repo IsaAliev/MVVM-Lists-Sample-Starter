@@ -17,9 +17,10 @@ struct AppLaunchCoordinator {
     }
     
     func start() {
-        let vc = UIViewController()
+        let profileController = ProfileViewController()
+        let navigationController = UINavigationController(rootViewController: profileController)
         
-        window.rootViewController = vc
+        window.rootViewController = navigationController
         window.makeKeyAndVisible()
     }
 }

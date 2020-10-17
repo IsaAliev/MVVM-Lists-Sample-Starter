@@ -1,0 +1,14 @@
+{
+    "name": "Isa Aliev",
+    "about": "iOS-Developer from Russia.",
+    "attributes": [
+        {
+            "name": "gender",
+            "value": "male"
+        },
+        {
+            "name": "age",
+            "value": "23"
+        }
+    ]
+}

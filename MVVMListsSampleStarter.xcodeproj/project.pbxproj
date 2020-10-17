@@ -21,6 +21,14 @@
 		436E1294252A2FE400F7F6CE /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E1293252A2FE400F7F6CE /* Utils.swift */; };
 		43E84013253A3972009D98C4 /* RxDataSource+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E84012253A3972009D98C4 /* RxDataSource+Default.swift */; };
 		43E84015253A3E25009D98C4 /* RxDataSourceRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E84014253A3E25009D98C4 /* RxDataSourceRepresentableView.swift */; };
+		43E84068253B5A62009D98C4 /* info.json in Resources */ = {isa = PBXBuildFile; fileRef = 43E84067253B5A62009D98C4 /* info.json */; };
+		43E8406A253B5B7F009D98C4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E84069253B5B7F009D98C4 /* Profile.swift */; };
+		43E8406D253B5BD9009D98C4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8406C253B5BD9009D98C4 /* ProfileViewController.swift */; };
+		43E8406F253B5BEF009D98C4 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8406E253B5BEF009D98C4 /* ProfileViewModel.swift */; };
+		43E8407A253B6804009D98C4 /* TextHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E84079253B6804009D98C4 /* TextHeaderView.swift */; };
+		43E8407C253B68FD009D98C4 /* NamedImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8407B253B68FD009D98C4 /* NamedImageCell.swift */; };
+		43E8407E253B69F9009D98C4 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8407D253B69F9009D98C4 /* TextCell.swift */; };
+		43E84080253B6A71009D98C4 /* AttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8407F253B6A71009D98C4 /* AttributeCell.swift */; };
 		56CF9062C51E7E8FF8E23B3D /* Pods_MVVMListsSampleStarter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144893032FC3AD90184D1A9C /* Pods_MVVMListsSampleStarter.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +52,14 @@
 		436E1293252A2FE400F7F6CE /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		43E84012253A3972009D98C4 /* RxDataSource+Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxDataSource+Default.swift"; sourceTree = "<group>"; };
 		43E84014253A3E25009D98C4 /* RxDataSourceRepresentableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxDataSourceRepresentableView.swift; sourceTree = "<group>"; };
+		43E84067253B5A62009D98C4 /* info.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = info.json; sourceTree = "<group>"; };
+		43E84069253B5B7F009D98C4 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		43E8406C253B5BD9009D98C4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		43E8406E253B5BEF009D98C4 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		43E84079253B6804009D98C4 /* TextHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextHeaderView.swift; sourceTree = "<group>"; };
+		43E8407B253B68FD009D98C4 /* NamedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedImageCell.swift; sourceTree = "<group>"; };
+		43E8407D253B69F9009D98C4 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		43E8407F253B6A71009D98C4 /* AttributeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +95,15 @@
 		436E126B252A2CC700F7F6CE /* MVVMListsSampleStarter */ = {
 			isa = PBXGroup;
 			children = (
+				43E8406B253B5BCC009D98C4 /* Profile */,
 				436E1282252A2F3F00F7F6CE /* MVVMKit */,
 				436E126C252A2CC700F7F6CE /* AppDelegate.swift */,
 				436E1275252A2CCA00F7F6CE /* Assets.xcassets */,
 				436E1277252A2CCA00F7F6CE /* LaunchScreen.storyboard */,
 				436E127A252A2CCA00F7F6CE /* Info.plist */,
 				436E1280252A2D2400F7F6CE /* AppLaunchCoordinator.swift */,
+				43E84067253B5A62009D98C4 /* info.json */,
+				43E84069253B5B7F009D98C4 /* Profile.swift */,
 			);
 			path = MVVMListsSampleStarter;
 			sourceTree = "<group>";
@@ -104,6 +123,19 @@
 				436E1285252A2FA200F7F6CE /* ViewRepresentable.swift */,
 			);
 			path = MVVMKit;
+			sourceTree = "<group>";
+		};
+		43E8406B253B5BCC009D98C4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				43E84079253B6804009D98C4 /* TextHeaderView.swift */,
+				43E8406C253B5BD9009D98C4 /* ProfileViewController.swift */,
+				43E8406E253B5BEF009D98C4 /* ProfileViewModel.swift */,
+				43E8407B253B68FD009D98C4 /* NamedImageCell.swift */,
+				43E8407D253B69F9009D98C4 /* TextCell.swift */,
+				43E8407F253B6A71009D98C4 /* AttributeCell.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		4E6250279D77A5102C5CC02A /* Frameworks */ = {
@@ -185,6 +217,7 @@
 			files = (
 				436E1279252A2CCA00F7F6CE /* LaunchScreen.storyboard in Resources */,
 				436E1276252A2CCA00F7F6CE /* Assets.xcassets in Resources */,
+				43E84068253B5A62009D98C4 /* info.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,15 +273,22 @@
 				43E84013253A3972009D98C4 /* RxDataSource+Default.swift in Sources */,
 				436E126D252A2CC700F7F6CE /* AppDelegate.swift in Sources */,
 				436E128A252A2FA700F7F6CE /* CollectionItemsViewModelDependencyManager.swift in Sources */,
+				43E8406A253B5B7F009D98C4 /* Profile.swift in Sources */,
+				43E8407E253B69F9009D98C4 /* TextCell.swift in Sources */,
+				43E8406D253B5BD9009D98C4 /* ProfileViewController.swift in Sources */,
 				436E1281252A2D2400F7F6CE /* AppLaunchCoordinator.swift in Sources */,
 				436E128D252A2FA700F7F6CE /* ViewDependency.swift in Sources */,
 				436E128E252A2FA700F7F6CE /* CollectionItemsViewDependenciesContainable.swift in Sources */,
+				43E8407A253B6804009D98C4 /* TextHeaderView.swift in Sources */,
 				436E1290252A2FA700F7F6CE /* ViewRepresentable.swift in Sources */,
+				43E8406F253B5BEF009D98C4 /* ProfileViewModel.swift in Sources */,
 				436E1292252A2FDB00F7F6CE /* ViewDependecy+Installation.swift in Sources */,
 				436E1294252A2FE400F7F6CE /* Utils.swift in Sources */,
+				43E84080253B6A71009D98C4 /* AttributeCell.swift in Sources */,
 				436E128F252A2FA700F7F6CE /* ViewModel.swift in Sources */,
 				43E84015253A3E25009D98C4 /* RxDataSourceRepresentableView.swift in Sources */,
 				436E128B252A2FA700F7F6CE /* CollectionItemViewModel.swift in Sources */,
+				43E8407C253B68FD009D98C4 /* NamedImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,5 +7,6 @@ target 'MVVMListsSampleStarter' do
 
 pod 'RxSwift'
 pod 'RxDataSources'
+pod 'SnapKit'
 
 end
