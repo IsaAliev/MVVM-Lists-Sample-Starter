@@ -3,7 +3,7 @@
 //  smb
 //
 //  Created by Isa Aliev on 26.09.2020.
-//  Copyright © 2020 VTB. All rights reserved.
+//  Copyright © 2020 IA. All rights reserved.
 //
 
 import Foundation

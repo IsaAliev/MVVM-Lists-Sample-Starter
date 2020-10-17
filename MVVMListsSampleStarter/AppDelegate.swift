@@ -13,7 +13,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private var coordinator: AppLaunchCoordinator!
     var window: UIWindow?
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
         setupWindow()
         coordinate()
         
