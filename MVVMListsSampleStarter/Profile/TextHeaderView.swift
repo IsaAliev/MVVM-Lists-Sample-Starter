@@ -28,13 +28,13 @@ class TextHeaderView: UICollectionReusableView {
         let label = UILabel()
         
         label.textColor = .black
-        label.font = .systemFont(ofSize: 16.0)
+        label.font = .systemFont(ofSize: 22.0, weight: .medium)
         
         addSubview(label)
         
         label.snp.makeConstraints { (make) in
-            make.leading.equalToSuperview().offset(32.0)
-            make.trailing.equalToSuperview().offset(-32.0)
+            make.leading.equalToSuperview().offset(16.0)
+            make.trailing.equalToSuperview().offset(-16.0)
             make.centerY.equalToSuperview()
         }
         
