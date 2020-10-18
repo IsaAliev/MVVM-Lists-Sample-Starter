@@ -13,6 +13,7 @@ struct Profile: Codable {
     }
     
     let name: String
+    let imageFileName: String
     let about: String
     let attributes: [Attribute]
 }
