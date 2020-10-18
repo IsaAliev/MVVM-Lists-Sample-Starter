@@ -1,7 +1,7 @@
 {
     "name": "Isa Aliev",
     "about": "iOS-Developer from Russia.",
-    "imageFileName": "profile_image.JPG"
+    "imageFileName": "profile_image.JPG",
     "attributes": [
         {
             "name": "gender",
