@@ -29,6 +29,7 @@
 		43E8407C253B68FD009D98C4 /* NamedImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8407B253B68FD009D98C4 /* NamedImageCell.swift */; };
 		43E8407E253B69F9009D98C4 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8407D253B69F9009D98C4 /* TextCell.swift */; };
 		43E84080253B6A71009D98C4 /* AttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8407F253B6A71009D98C4 /* AttributeCell.swift */; };
+		43E84094253C3E34009D98C4 /* profile_image.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 43E84093253C3E34009D98C4 /* profile_image.JPG */; };
 		56CF9062C51E7E8FF8E23B3D /* Pods_MVVMListsSampleStarter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144893032FC3AD90184D1A9C /* Pods_MVVMListsSampleStarter.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		43E8407B253B68FD009D98C4 /* NamedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedImageCell.swift; sourceTree = "<group>"; };
 		43E8407D253B69F9009D98C4 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		43E8407F253B6A71009D98C4 /* AttributeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeCell.swift; sourceTree = "<group>"; };
+		43E84093253C3E34009D98C4 /* profile_image.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_image.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		436E1260252A2CC700F7F6CE = {
 			isa = PBXGroup;
 			children = (
+				43E84093253C3E34009D98C4 /* profile_image.JPG */,
 				436E126B252A2CC700F7F6CE /* MVVMListsSampleStarter */,
 				436E126A252A2CC700F7F6CE /* Products */,
 				EE994BC7D0A894688B9A5296 /* Pods */,
@@ -215,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E84094253C3E34009D98C4 /* profile_image.JPG in Resources */,
 				436E1279252A2CCA00F7F6CE /* LaunchScreen.storyboard in Resources */,
 				436E1276252A2CCA00F7F6CE /* Assets.xcassets in Resources */,
 				43E84068253B5A62009D98C4 /* info.json in Resources */,
